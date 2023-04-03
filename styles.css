@@ -1,0 +1,11 @@
+#Trippy {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 5vh;
+    width: 15ch;
+    border-radius: 50px;
+    background-color: green;
+    color: yellowgreen;
+    border: 2px solid red;
+}

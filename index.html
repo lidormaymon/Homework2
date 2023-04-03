@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <script src="script.js"></script>
     <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,41 +23,9 @@
     <div>Color list:Red, blue, and yellow.</div>
     <input id="ArrayColorInput" placeholder="Pick a color from the list">
     <button onclick="ArrayColorChange()">Click</button><br><br>
+    <button id="Trippy">Trippy button</button>
 
 
-
-
-
-    <script>
-        function CheckUsername() {
-            const username = bar.value
-            const len = username.length
-            NameLen.innerHTML = (`Your name has ${len} letters.`)
-
-            let backwards = ''
-            for (let index = len - 1; index >= 0; index--) {
-                backwards += username[index];
-            }
-            backwards1.innerHTML = (`Your name in backwards is ${backwards}`)
-        }
-
-        function ColorChange() {
-            const color = changecolor.value
-            PickColor.style.backgroundColor = color
-        }
-
-        function ArrayColorChange() {
-            const color = ArrayColorInput.value.toLowerCase()
-            const colors = ['red', 'blue', 'yellow']
-            colors.includes(color) ? document.body.style.backgroundColor = color : 0
-        }
-
-
-       
-
-
-
-    </script>
 </body>
 
 </html>
