@@ -22,7 +22,7 @@ function ArrayColorChange() {
 }
 
 let x = 0;
-let y = 0;
+let y = 1;
 let speed = 5;
 
 function moveButton() {
